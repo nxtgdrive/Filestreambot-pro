@@ -9,7 +9,8 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('29416382'))
+    API_ID = int(getenv('App api_id:
+29416382'))
     API_HASH = str(getenv('618bc13eaeee697d6f56af3bbfea5fa7'))
     BOT_TOKEN = str(getenv('6058745990:AAEWHaDgYuYnyZrHNHFJ6JQ8DZc5Xgvs6Nw'))
     name = str(getenv('name', 'nxtdrive_bot'))
